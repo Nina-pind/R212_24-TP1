@@ -1,0 +1,23 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.5rem;
+  grid-auto-rows: min-content;
+  grid-auto-flow: dense;
+}
+
+
+.card {
+  background-color: var(--clr-neutral-100);
+  color: var(--_clr-foreground);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px var(--clr-secondary-alpha);
+  font-family: var(--ff-primary);
+  text-align: left;
+  position: relative;
+}
+
